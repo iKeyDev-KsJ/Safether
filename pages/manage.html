@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+        
+        <!-- Javascript -->
+        <script async type="application/javascript" src="../js/eth/web3.min.js"></script>
+        <script async type="application/javascript" src="../js/eth/abi.js"></script>
+        <script async type="application/javascript" src="../js/pages/manage.js"></script>
+
+        <!-- 스타일 시트 및 아이콘 정의 구역 -->
+        <link rel="preload" type="text/css" href="../css/general.css" as="style">
+        <link rel="preload" type="text/css" href="../css/pages/manage.css" as="style">
+        <link rel="shortcut icon" type="image/x-icon" href="../resource/images/favicon.ico">
+        <title>Safether - Manage your assets.</title>
+    </head>
+    <body>
+
+        <!-- Solidity Logo -->
+        <header>
+            <section>
+                <a href="./manage.html">
+                    <img src="../resource/images/solidity.png">
+                </a>
+                <span id="coinbase"></span>
+            </section>
+            <button id="signout">Sign out</button>
+        </header>
+
+        <!-- Section -->
+        <section>
+            <article id="information">
+                <span>
+                    Welcome to Safether!
+                    <p>Here you can hold additional assets, cancel contracts, or reissue access key. Please select the desired action.</p>
+                    <p id="balance"></p>
+                    <p id="limit"></p>
+                </span>
+            </article>
+            <article id="selectionList">
+                <span>
+                    <button id="deposit">Deposit</button>
+                    <button id="reissue">Reissue</button>
+                    <button id="cancel">Cancel</button>
+                </span>
+            </article>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <span>
+                Safether dApp was made using Solidity and Swarm.
+                <p>Made by Meshyarn (<a href="mailto:info@pinchain.io"><u>info@pinchian.io</u></a>) | <u id="donate">donate us</u></p>
+            </span>
+        </footer>
+    </body>
+</html>

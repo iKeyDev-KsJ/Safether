@@ -1,0 +1,84 @@
+header img {
+    position:absolute;
+    top:50%; left:50%;
+    width:7.5vmin;
+    transform:translate(-50%,-50%);
+}
+
+header button {
+    position:absolute; top:50%; right:0%;
+    width:9vmin; height:4.5vmin;
+    border:solid 0.2vmin #43516c;
+    font-size:1.5vmin; font-weight:bold;
+    color:#43516c;
+    transform:translate(-50%, -50%);
+}
+
+header button:hover {
+    background-color:#43516c;
+    color:#f0f0f0;
+}
+
+#enrollment {
+    background: repeating-linear-gradient(-60deg, #52607c, #52607c 5vmin, #43516c 5vmin, #43516c 10vmin);
+    position:relative;
+    width:100%; height:70%;
+    border:solid #747e9a;
+    border-width: 0 0 1vmin 0;
+    z-index:2;
+}
+
+#enrollment span {
+    position:absolute; top:40%; left:50%;
+    text-align:center;
+    width: 87.5%;
+    font-size:8.25vmin; font-weight:bold;
+    color:#f0f0f0;
+    transform:translate(-50%,-50%);
+}
+
+#enrollment span p {
+    position:relative; top:25%; left:50%;
+    width:87.5%;
+    text-align:center;
+    font-size:3.5vmin; font-weight:lighter;
+    transform:translateX(-50%);
+}
+
+#enrollment button {
+    position:absolute; left:50%; bottom:7.5vmin;
+    width:30vmin; height:10vmin;
+    border:solid 0.25vmin #f0f0f0;
+    font-size:3.5vmin; font-weight:bold;
+    color:#f0f0f0;
+    transform:translateX(-50%);
+}
+
+#enrollment button:hover {
+    background-color:#f0f0f0;
+    color:#43516c;
+}
+
+#recovery {
+    background-color:#f0f0f0;
+    position:relative;
+    width:100%; height:30%;
+    border:solid #acbd7e;
+    border-width: 0 0 1vmin 0;
+    box-shadow: 0 0 1vmin 0 #333;
+    z-index:1;
+}
+
+#recovery span {
+    position:absolute; top:50%; left:12.5%;
+    width: 75%;
+    font-size:3.5vmin; font-weight:bold;
+    color:#a2b376;
+    transform:translateY(-50%);
+}
+
+#recovery span u {
+    font-size:5vmin;
+    color:#484d2f;
+    cursor:pointer;
+}

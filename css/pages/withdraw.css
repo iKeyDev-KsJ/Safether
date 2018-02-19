@@ -1,0 +1,73 @@
+input:focus,button:focus{outline:0;}
+input[type="text"]::-webkit-input-placeholder {color:#f0f0f0;}
+input[type="password"]::-webkit-input-placeholder {color:#43516c;}
+
+body {
+    margin:0;
+    width:100%; height:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+section {
+    position:absolute;
+    width:100%; height:100%;
+}
+
+#first {
+    background: repeating-linear-gradient(-60deg, #52607c, #52607c 5vmin, #43516c 5vmin, #43516c 10vmin);
+    position:relative;
+    width:100%; height:40%;
+    border:solid #747e9a;
+    border-width: 0 0 1vmin 0;
+}
+
+#token {
+    background-color:transparent;
+    position:absolute; top:50%; left:50%;
+    width:85%; height:25%;
+    text-align:center;
+    font-size:5vmin; font-weight:bold;
+    color:#f0f0f0;
+    border:solid 0.5vmin #f0f0f0;
+    transform:translate(-50%,-50%);
+}
+
+#second {
+    background-color:#f0f0f0;
+    position:relative;
+    width:100%; height:60%;
+}
+
+.firstLine, .secondLine, .thirdLine, .fourthLine, .fifthLine {
+    position:relative; top:7.5%; left:50%;
+    width:calc(80% + 12vmin);
+    transform:translateX(-50%);
+}
+
+#second input {
+    background-color:transparent;
+    position:relative; top:50%;
+    width:20%; height:7.5vmin;
+    margin:3.0vmin 1.5vmin 1.5vmin 1.5vmin;
+    text-align:center;
+    font-size:3vmin; font-weight:bold;
+    color:#43516c;
+    border:solid 0.25vmin #43516c;
+}
+
+#second button {
+    background-color:transparent;
+    position:absolute; left:49.25%; bottom:7.5%;
+    width:calc(80% + 7.5vmin); height: 10vmin;
+    font-size:5vmin; font-weight:bold;
+    color:#43516c;
+    border:solid 0.25vmin #43516c;
+    transform:translateX(-50%);
+}
+
+#second button:hover {
+    background-color:#43516c;
+    color:#f0f0f0;
+    cursor:pointer;
+}

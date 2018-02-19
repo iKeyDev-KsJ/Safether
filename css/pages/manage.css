@@ -1,0 +1,103 @@
+header section {
+    position:absolute;
+    top:50%; left:50%;
+    transform:translate(-50%,-50%);
+}
+
+header section img {
+    position:absolute;
+    top:50%;
+    width:7.5vmin; height:7.5vmin;
+    transform:translateY(-50%);
+}
+
+header section span {
+    position:absolute;
+    top:50%; left:50%;
+    font-size:2.5vmin; font-weight:bold;
+    color:#43516c;
+    transform:translate(-50%,-50%);
+    cursor:pointer;
+}
+
+header section span:hover {
+    text-decoration:underline;
+}
+
+header button {
+    position:absolute; top:50%; right:0%;
+    width:9vmin; height:4.5vmin;
+    border:solid 0.2vmin #43516c;
+    font-size:1.5vmin; font-weight:bold;
+    color:#43516c;
+    transform:translate(-50%, -50%);
+}
+
+header button:hover {
+    background-color:#43516c;
+    color:#f0f0f0;
+}
+
+#information {
+    background: repeating-linear-gradient(-60deg, #52607c, #52607c 5vmin, #43516c 5vmin, #43516c 10vmin);
+    position:relative;
+    width:100%; height:70%;
+    border:solid #747e9a;
+    border-width: 0 0 1vmin 0;
+    z-index:2;
+}
+
+#information span {
+    position:absolute; top:50%; left:50%;
+    text-align:center;
+    width: 87.5%;
+    font-size:8.25vmin; font-weight:bold;
+    color:#f0f0f0;
+    transform:translate(-50%,-50%);
+}
+
+#information span p {
+    position:relative; top:25%; left:50%;
+    width:87.5%;
+    text-align:center;
+    font-size:3.5vmin; font-weight:lighter;
+    transform:translateX(-50%);
+}
+
+#information span #balance {
+    font-size:5vmin; font-weight:lighter;
+}
+
+#information span #limit {
+    font-size:2.5vmin;
+}
+
+#selectionList {
+    background-color:#f0f0f0;
+    position:relative;
+    width:100%; height:30%;
+    border:solid #acbd7e;
+    border-width: 0 0 1vmin 0;
+    box-shadow: 0 0 1vmin 0 #333;
+    z-index:1;
+}
+
+#selectionList span {
+    position:absolute; top:50%; left:50%;
+    width:87.5%;
+    transform:translate(-50%,-50%);
+}
+
+#selectionList button {
+    position:relative;
+    margin: 2.5vmin;
+    width:calc(32.5% - 5vmin); height:10vmax;
+    border:solid 0.25vmin #43516c;
+    font-size:3vmin; font-weight:bold;
+    color:#43516c;
+}
+
+#selectionList button:hover {
+    background-color:#43516c;
+    color:#f0f0f0;
+}
