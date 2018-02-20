@@ -5,7 +5,7 @@ Safether
 
 If you can not access the page with the link above, you can try to connect via the address below.
 
-Safether: [http://swarm-gateways.net/bzz:/718e5987873bc4a75e960d4cbac5b21922f00628a82b1037c21fe74c5e67c94a](http://swarm-gateways.net/bzz:/ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744b855876831533d0c737ab675)
+Safether: [http://swarm-gateways.net/bzz:/ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744b855876831533d0c737ab675](http://swarm-gateways.net/bzz:/ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744b855876831533d0c737ab675)
 
 Alternatively, you can try to connect through the swarm gateway using the hash below.
 
