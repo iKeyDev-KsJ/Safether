@@ -1,3 +1,6 @@
+input:focus,button:focus{outline:0;}
+input[type="password"]::-webkit-input-placeholder {color:#f0f0f0;}
+
 body {
     margin:0;
     width:100%; height:100%;
@@ -18,6 +21,17 @@ section {
     border-width: 0 0 1vmin 0;
 }
 
+#password {
+    background-color:transparent;
+    position:absolute; top:50%; left:50%;
+    width:85%; height:25%;
+    text-align:center;
+    font-size:5vmin; font-weight:bold;
+    color:#f0f0f0;
+    border:solid 0.5vmin #f0f0f0;
+    transform:translate(-50%,-50%);
+}
+
 #token {
     position:absolute; top:50%;
     width:100%;
@@ -36,6 +50,30 @@ section {
     background-color:#f0f0f0;
     position:relative;
     width:100%; height:60%;
+}
+
+#warning {
+    position:absolute; top:42.5%; left:50%;
+    width:calc(80% + 7.5vmin);
+    text-align:justify;
+    font-size:7.5vmin; font-weight:normal;
+    transform:translate(-50%,-50%);
+}
+
+#authentication {
+    background-color:transparent;
+    position:absolute; left:49.25%; bottom:7.5%;
+    width:calc(80% + 7.5vmin); height: 10vmin;
+    font-size:5vmin; font-weight:bold;
+    color:#43516c;
+    border:solid 0.25vmin #43516c;
+    transform:translateX(-50%);
+}
+
+#authentication:hover {
+    background-color:#43516c;
+    color:#f0f0f0;
+    cursor:pointer;
 }
 
 #words {

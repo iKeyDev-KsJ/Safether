@@ -41,58 +41,14 @@ function sign(isSingUp) {
             if (isSingUp) {
 
                 if (address === null) { return alert('Please make sure the meta mask is logged in.'); };
-                if (data[0] !== '0x0000000000000000') { if (confirm('You are already registered. Do you want to sign in?')) { location.replace('./pages/manage.html'); } }
-                else {
-    
-                    etherSafe.methods.register().send({from: address})
-                    .on('transactionHash', (txid) => {
-
-                        alert('Please wait a few minutes as the page will refresh automatically once it is done.');
-                        var refreshIntervalId = setInterval(() => {
-
-                            web3js.eth.getBlock('latest')
-                            .then((data) => {
-
-                                data.transactions.forEach((_txid) => {
-                                    if (txid == _txid) { clearInterval(refreshIntervalId); location.replace('./pages/manage.html'); } })
-
-                            });
-
-                        }, 1000);
-
-                    });
-    
-                }
+                if (data[0] !== '0') { if (confirm('You are already registered. Do you want to sign in?')) { location.replace('./pages/manage.html'); } }
+                else { signup(); }
 
             }
             else {
 
                 if (address === null) { return alert('Please make sure the meta mask is logged in.'); };
-                if (data[0] === '0x0000000000000000') {
-
-                    if (confirm('You are not registered. Do you want to sign up?')) {
-    
-                        etherSafe.methods.register().send({from: address})
-                        .on('transactionHash', (txid) => {
-
-                            alert('Please wait a few minutes as the page will refresh automatically once it is done.');
-                            var refreshIntervalId = setInterval(() => {
-
-                                web3js.eth.getBlock('latest')
-                                .then((data) => {
-
-                                    data.transactions.forEach((_txid) => {
-                                        if (txid == _txid) { clearInterval(refreshIntervalId); location.replace('./pages/manage.html'); } })
-
-                                });
-
-                            }, 1000);
-
-                        });
-    
-                    }
-    
-                }
+                if (data[0] === '0') { if (confirm('You are not registered. Do you want to sign up?')) { signup(); } }
                 else { location.replace('./pages/manage.html'); }
 
             }
@@ -100,6 +56,30 @@ function sign(isSingUp) {
         });
 
     })
+
+}
+
+function signup() {
+
+    var child = window.open('./pages/token.html','','width=480, height=640, resizable=no, scrollbars=no, location=no, status=no, menubar=no, toolbar=no;');
+    child.document.getElementsByTagName('isReissue').value = false;
+
+}
+
+function moveManage(txid) {
+
+    alert('Please wait a few minutes as the page will refresh automatically once it is done.');
+    var refreshIntervalId = setInterval(() => {
+
+        web3js.eth.getBlock('latest')
+        .then((data) => {
+
+            data.transactions.forEach((_txid) => {
+                if (txid == _txid) { clearInterval(refreshIntervalId); location.replace('./pages/manage.html'); } })
+
+        });
+
+    }, 1000);
 
 }
 
@@ -123,3 +103,5 @@ function donate() {
     });
 
 }
+
+function openEtherScan(txid) { alert('A transaction has been issued.'); setTimeout(() => { window.open('https://etherscan.io/tx/' + txid,'_blank'); }, 1000); }

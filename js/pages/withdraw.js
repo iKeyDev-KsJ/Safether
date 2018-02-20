@@ -47,22 +47,7 @@ function withdraw() {
 
         const depositor = '0x' + mnemonic.decode(addressWord);
         etherSafe.methods.withdraw(depositor, token).send({from: address})
-        .on('transactionHash', (txid) => {
-
-            alert('Please wait a few minutes as the page will close automatically once it is done.');
-            var refreshIntervalId = setInterval(() => {
-
-                web3js.eth.getBlock('latest')
-                .then((data) => {
-
-                    data.transactions.forEach((_txid) => {
-                        if (txid == _txid) { clearInterval(refreshIntervalId); window.close(); } })
-
-                });
-
-            }, 1000);
-
-        });
+        .on('transactionHash', (txid) => { opener.openEtherScan(txid); window.close(); });
 
     });
 

@@ -18,8 +18,22 @@
     </head>
     <body>
 
+        <!-- Parameter -->
+        <div id="isReissue"></div>
+
         <!-- Section -->
-        <section>
+        <section id="auth">
+            <article id="fisrt">
+                <input id="password" type="password" placeholder="Enter password">
+            </article>
+            <article id="second">
+                <span id="warning">Enter your password (6 digits + 1 digit english) for your safe.<p>ex) 123456K or 123456p</p></span>
+                <button id="authentication">Get Token</button>
+            </article>
+        </section>
+
+        <!-- Section -->
+        <section id="reissue" hidden>
             <article id="fisrt">
                 <span id="token"></span>
             </article>

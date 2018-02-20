@@ -20,7 +20,7 @@
                 etherSafe.methods.getDepositor().call({from: address}, (err, data) => {
 
                     if (err) { alert(err); return location.replace('../'); }
-                    if (data[0] === '0x0000000000000000') { location.replace('../'); }
+                    if (data[0] === '0') { location.replace('../'); }
                     document.getElementById('balance').innerText = 'Your holding asset is ' + web3js.utils.fromWei(data[2], 'ether') + ' ethers.';
 
                     setInterval(() => {
@@ -37,7 +37,7 @@
                     element[0].addEventListener('click', () => {window.prompt('Copy to the clipboard via Ctrl + C.', document.getElementById('coinbase').innerText)});
                     element[1].addEventListener('click', () => {if (confirm('Are you sure you want to sign out?')) { location.replace('../'); }});
                     element[2].addEventListener('click', () => {deposit()});
-                    element[3].addEventListener('click', () => {window.open('./token.html','','width=480, height=640, resizable=no, scrollbars=no, location=no, status=no, menubar=no, toolbar=no;')});
+                    element[3].addEventListener('click', () => {window.open('./token.html','token','width=480, height=640, resizable=no, scrollbars=no, location=no, status=no, menubar=no, toolbar=no;');});
                     element[4].addEventListener('click', () => {cancel()});
                     element[5].addEventListener('click', () => {donate()});
 
@@ -76,7 +76,7 @@ function deposit() {
                     .then((data) => {
 
                         data.transactions.forEach((_txid) => {
-                            if (txid == _txid) { clearInterval(refreshIntervalId); window.open('./token.html','','width=480, height=640, resizable=no, scrollbars=no, location=no, status=no, menubar=no, toolbar=no;'); location.reload(true); } })
+                            if (txid == _txid) { clearInterval(refreshIntervalId); location.reload(true); } })
 
                     });
 
@@ -108,7 +108,7 @@ function cancel() {
                 .then((data) => {
 
                     data.transactions.forEach((_txid) => {
-                        if (txid == _txid) { clearInterval(refreshIntervalId); alert('Thank you for using bestowal services.'); location.replace('../'); } })
+                        if (txid == _txid) { clearInterval(refreshIntervalId); alert('Thank you for using Safether services.'); location.replace('../'); } })
 
                 });
 

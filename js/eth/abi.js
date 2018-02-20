@@ -1,27 +1,42 @@
-const contractAddress = '0x2322f82D952116D044eDD05B0BDcD098335502c3';
+const contractAddress = '0xC544e35347e3bD4E98498d5F6613262f4E672c8e';
 const contractABI = [
 	{
-		"constant": false,
+		"constant": true,
 		"inputs": [],
-		"name": "register",
-		"outputs": [],
+		"name": "getDepositor",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256[3]"
+			}
+		],
 		"payable": false,
-		"stateMutability": "nonpayable",
+		"stateMutability": "view",
 		"type": "function"
 	},
 	{
-		"constant": false,
+		"constant": true,
 		"inputs": [
-			{
-				"name": "depositor",
-				"type": "address"
-			},
 			{
 				"name": "token",
 				"type": "bytes8"
 			}
 		],
-		"name": "withdraw",
+		"name": "authentication",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [],
+		"name": "cancel",
 		"outputs": [],
 		"payable": true,
 		"stateMutability": "payable",
@@ -42,31 +57,32 @@ const contractABI = [
 		"type": "function"
 	},
 	{
-		"constant": true,
-		"inputs": [],
-		"name": "getDepositor",
-		"outputs": [
+		"constant": false,
+		"inputs": [
 			{
-				"name": "",
-				"type": "bytes8"
-			},
-			{
-				"name": "",
-				"type": "uint256"
-			},
-			{
-				"name": "",
-				"type": "uint256"
+				"name": "password",
+				"type": "bytes7"
 			}
 		],
+		"name": "register",
+		"outputs": [],
 		"payable": false,
-		"stateMutability": "view",
+		"stateMutability": "nonpayable",
 		"type": "function"
 	},
 	{
 		"constant": false,
-		"inputs": [],
-		"name": "cancel",
+		"inputs": [
+			{
+				"name": "depositor",
+				"type": "address"
+			},
+			{
+				"name": "token",
+				"type": "bytes8"
+			}
+		],
+		"name": "withdraw",
 		"outputs": [],
 		"payable": true,
 		"stateMutability": "payable",
