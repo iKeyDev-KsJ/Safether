@@ -8,8 +8,27 @@
         // Checking if Web3 has been injected by the browser (Mist/MetaMask)
         if (typeof web3 !== 'undefined') {
             // Use Mist/MetaMask's provider
+
             web3js = new Web3(web3.currentProvider);
-            etherSafe = new web3js.eth.Contract(contractABI, contractAddress);
+            web3js.eth.net.getId((networkId) => {
+
+                if (networkId == 1) {
+                    etherSafe = new web3js.eth.Contract(contractABI, contractAddress[0]);
+                }
+                else if (networkId == 3) {
+                    etherSafe = new web3js.eth.Contract(contractABI, contractAddress[1]);
+                }
+                else if (networkId == 42) {
+                    etherSafe = new web3js.eth.Contract(contractABI, contractAddress[2]);
+                }
+                else {
+                    alert('Please make sure that Metamask RPC is set to Mainnet, Robsten, Kovan.');
+                    for(var i = 0; i < element.length; i++)
+                        element[i].addEventListener('click', () => {alert('Please make sure that Metamask RPC is set to Mainnet, Robsten, Kovan.')});
+                    return;
+                }
+
+            });
 
             element[0].addEventListener('click', () => {sign(false)});
             element[1].addEventListener('click', () => {sign(true)});
