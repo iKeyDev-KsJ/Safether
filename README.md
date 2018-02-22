@@ -4,7 +4,7 @@ Safether v1.0.1
 English
 ------
 
-### Explane
+### Explanation
 > [Safether](https://safether.meshyarn.io/) is a safe deposit box service that enables you to keep assets safe and locate them using the Access Token. 
 > For example, if you tie the 100 dollar mark to the safe for one year, no one can find the money using Access Token until the end of the period. 
 > Don't worry! If you are the owner of the safe, you can cancel the contract at any time and find the asset safely under any circumstances.
@@ -31,17 +31,17 @@ English
 >
 > #### Gateway
 >> Ethereum Swarm Gateway: [http://swarm-gateways.net/](https://swarm-gateways.net)  
->> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io/](https://swarm.meshyarn.io)  
+>> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io](https://swarm.meshyarn.io)  
 >
 > #### How can I access the swarm using safether hash?
 >> If you would like to connect to Safether via the above swarm gateway, you can try to connect as follows:  
 >> [http://swarm-gateways.net/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm-gateways.net/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
->> [http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
+>> [https://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
 >> Note : swarm-gateways.net may not immediately be able to connect due to sync issues.  
 >>
 >> or you can try to connect using Safether.eth, the ENS address of Safether:  
 >> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)   
->> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
+>> [https://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
 ### 경고
 > #### v1.0.1
@@ -87,17 +87,17 @@ Korean
 >
 > #### Gateway
 >> Ethereum Swarm Gateway: [http://swarm-gateways.net/](https://swarm-gateways.net)  
->> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io/](https://swarm.meshyarn.io)  
+>> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io](https://swarm.meshyarn.io)  
 >
 > #### 접속 방법
 >> 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 원한다면 아래와 같이 접속을 시도할 수 있습니다.  
 >> [http://swarm-gateways.net/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm-gateways.net/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
->> [http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
+>> [https://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
 >> 참고: swarm-gateways.net은 동기화 문제로 인해 바로 접속이 되지 않을 수 있습니다.  
 >>
 >> 또는 Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.  
 >> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)  
->> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
+>> [https://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
 ### 경고
 > #### v1.0.1
