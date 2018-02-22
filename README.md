@@ -2,35 +2,75 @@ Safether v1.0.1
 =======
 
 English
--------
+------
 
-[Safether](https://swarm.meshyarn.io/bzz:/ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744b855876831533d0c737ab675) is Ethereum dApp and keep assets safe and using Ethereum Swarm.
+### Explane
+> [Safether](https://safether.meshyarn.io/) is a safe deposit box service that enables you to keep assets safe and locate them using the Access Token. 
+> For example, if you tie the 100 dollar mark to the safe for one year, no one can find the money using Access Token until the end of the period. 
+> Don't worry! If you are the owner of the safe, you can cancel the contract at any time and find the asset safely under any circumstances.
+> 
+> If you want to pass on the ethereum to your child, you need to put it in the safe and set the expiration date long enough.
+> Then, inform your child of the expiration date and amount with Access Token.
+> No matter how hard they try to find the money with the Access Token, they can never find the money before the time period expires!
+> In addition, access Token enables the child to find funds securely, even if the parent's purse is not accessible.
+>
+> The source is open source. You can always find an error in the source and fork it by notifying or modifying it.
 
-If you can not access the page with the link above, you can try to connect via the address below.
+### Contract Address
+> If you would like to check the contract information used in the app, you can check the information at the address below.  
+>
+> Mainnet Contract: [0xa9d68bcCA2ebFb5293EA9102Cf4ea0090c3133Cb](https://etherscan.io/address/0xa9d68bcCA2ebFb5293EA9102Cf4ea0090c3133Cb)  
+> Robsten Contract: [0x0662F9eB3A41654657da1d6A59594c6E9a36f8F0](https://ropsten.etherscan.io/address/0x0662F9eB3A41654657da1d6A59594c6E9a36f8F0)  
+> Kovan Contract: [0xF2fDB10ad55be2A55e211a08e362796d622fE17f](https://kovan.etherscan.io/address/0xF2fDB10ad55be2A55e211a08e362796d622fE17f)  
 
-Safether: [http://swarm-gateways.net/bzz:/ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744b855876831533d0c737ab675](http://swarm-gateways.net/bzz:/ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744b855876831533d0c737ab675)
+### Swarm
+> #### ENS
+>> Safether's latest Swarm Hash is 291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be, 
+>> but Safether's ENS address, safether.eth is recommended.
+>> If you are a swarm node, or would like to use a Safether via another swarm gateway, use the address below.
+>
+> #### Gateway
+>> Ethereum Swarm Gateway: [http://swarm-gateways.net/](https://swarm-gateways.net)  
+>> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io/](https://swarm.meshyarn.io)  
+>
+> #### How can I access the swarm using safether hash?
+>> If you would like to connect to Safether via the above swarm gateway, you can try to connect as follows:  
+>> [http://swarm-gateways.net/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm-gateways.net/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
+>> [http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
+>> Note : swarm-gateways.net may not immediately be able to connect due to sync issues.  
+>>
+>> or you can try to connect using Safether.eth, the ENS address of Safether:  
+>> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)   
+>> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
-Alternatively, you can try to connect through the swarm gateway using the hash below.
-
-Safether Swarm Hash: ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744b855876831533d0c737ab675
-
-Please do not use 718e5987873bc4a75e960d4cbac5b21922f00628a82b1037c21fe74c5e67c94a address!
-Because there are serious errors, you may lose your assets.
-
-The Contract address used for Safether dApp is [0xC544e35347e3bD4E98498d5F6613262f4E672c8e](https://etherscan.io/address/0xC544e35347e3bD4E98498d5F6613262f4E672c8e).
+### 경고
+> #### v1.0.1
+>> If possible, it is recommended to use a sw wom address with the Safether ENS address.  
+>
+> #### v1.0.0 - 오류 수정판
+>> We do not recommend using hash ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744855876831533d0c737ab675, 
+>> that have completed the error correction for the initial release.
+>> The version does not endorse actions on other networks than Mainnet. 
+>
+> #### v1.0.0 - 초기 릴리즈
+>> DO NOT use the old swarm hash, 718e5987873bc4a75e960d4cbac5b21922f00628a82b1037c21fe74c5e67c94a.
+>> The version implies a risk that can be easily inferred about Access Token. 
+> 
+> We can not answer for any unexpected loss if you do not comply with the above warning.
 
 Korean
 ------
 
 ### 설명
-> [Safether](https://safether.meshyarn.io/)는 이더리움의 자산을 안전하게 보관하고, Access Token을 통해 자산을 찾을 수 있도록 하는 안전 금고 서비스입니다.
+> [Safether](https://safether.meshyarn.io/)는 자산을 안전하게 보관하고, Access Token을 통해 자산을 찾을 수 있도록 하는 안전 금고 서비스입니다.
 > 예컨데, 당신이 100 이더리움을 금고에 1년간 묶어둘 경우, 기간이 만료되기 전까지는 그 누구도 Access Token을 사용하더라도 자금을 찾을 수 없습니다.
-> 걱정하지 마세요! 금고의 주인이라면, 계약을 언제든 해지할 수 있으며 이를 통해 만에 하나의 상황에서도 자산을 안전하게 찾을 수 있습니다.
+> 걱정하지 마세요! 금고의 주인이라면, 계약을 언제든 해지할 수 있으며 이를 통해 어떠한 상황에서도 자산을 안전하게 찾을 수 있습니다.
 > 
-> 만약 당신이 자식에게 이더리움을 물려주고 싶다면, 당신은 이더리움을 금고에 넣고 만료 기간을 충분히 길게 설정해둔 후 자식에게 Access Token과 함께 만료 기간과
-> 금액을 알려주면 됩니다. 자식은 Access Token을 가지고 아무리 자금을 찾으려 해도 기간이 만료되기 전에는 절대 금액을 찾을 수 없습니다!
-> 
-> 또한, 자식은 부모의 지갑에 액세스할 수 없어도 괜찮습니다. Access Token를 통해 자금을 찾을 때, 부모의 지갑이 아니어도 찾을 수 있기 때문입니다.
+> 만약 당신이 자식에게 이더리움을 물려주고 싶다면, 당신은 이더리움을 금고에 넣고 만료 기간을 충분히 길게 설정하시기 바랍니다.
+> 그런후, 자식에게 Access Token과 함께 만료 기간과 금액을 알려주면 됩니다. 
+> 자식은 Access Token을 가지고 아무리 자금을 찾으려 해도 기간이 만료되기 전에는 절대 금액을 찾을 수 없습니다!
+> 또한, 자식은 부모의 지갑에 액세스할 수 없어도 Access Token를 통해 자금을 안전하게 찾을 수 있습니다.
+>
 > 해당 소스는 오픈소스입니다. 당신은 언제든 소스의 오류를 발견하고 이를 알리거나 수정해 포크할 수 있습니다.
 
 ### Contract Address
@@ -38,11 +78,11 @@ Korean
 >
 > Mainnet Contract: [0xa9d68bcCA2ebFb5293EA9102Cf4ea0090c3133Cb](https://etherscan.io/address/0xa9d68bcCA2ebFb5293EA9102Cf4ea0090c3133Cb)  
 > Robsten Contract: [0x0662F9eB3A41654657da1d6A59594c6E9a36f8F0](https://ropsten.etherscan.io/address/0x0662F9eB3A41654657da1d6A59594c6E9a36f8F0)  
-> Kovan Contract  : [0xF2fDB10ad55be2A55e211a08e362796d622fE17f](https://kovan.etherscan.io/address/0xF2fDB10ad55be2A55e211a08e362796d622fE17f)  
+> Kovan Contract: [0xF2fDB10ad55be2A55e211a08e362796d622fE17f](https://kovan.etherscan.io/address/0xF2fDB10ad55be2A55e211a08e362796d622fE17f)  
 
 ### Swarm
 > #### ENS
->> Safether의 최신 Swarm Hash는 _이지만 Safether의 ENS 주소인 safether.eth를 사용하는 것을 권장합니다.
+>> Safether의 최신 Swarm Hash는 291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be이지만 Safether의 ENS 주소인 safether.eth를 사용하는 것을 권장합니다.
 >> 만약 당신이 스웜 노드이거나, 다른 스웜 게이트웨이를 통해 Safether를 사용하고 싶다면 아래의 주소를 통해 이용할 수 있습니다.
 >
 > #### Gateway
@@ -50,11 +90,12 @@ Korean
 >> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io/](https://swarm.meshyarn.io)  
 >
 > #### 접속 방법
->> 예컨데, 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 희망한다면 아래와 같이 접속을 시도할 수 있습니다.  
->> [http://swarm-gateways.net/bzz:/_]()  
->> [http://swarm.meshyarn.io/bzz:/_]()  
+>> 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 원한다면 아래와 같이 접속을 시도할 수 있습니다.  
+>> [http://swarm-gateways.net/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm-gateways.net/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
+>> [http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be](http://swarm.meshyarn.io/bzz:/291777fe4c6ec3cf36ec45d80bca715e149298f36f13c11705ea253f5646a9be)  
+>> 참고: swarm-gateways.net은 동기화 문제로 인해 바로 접속이 되지 않을 수 있습니다.  
 >>
->> 또는, Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.  
+>> 또는 Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.  
 >> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)  
 >> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
