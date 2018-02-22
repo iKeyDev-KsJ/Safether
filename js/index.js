@@ -10,7 +10,8 @@
             // Use Mist/MetaMask's provider
 
             web3js = new Web3(web3.currentProvider);
-            web3js.eth.net.getId((networkId) => {
+            web3js.eth.net.getId()
+            .then((networkId) => {
 
                 if (networkId == 1) {
                     etherSafe = new web3js.eth.Contract(contractABI, contractAddress[0]);
