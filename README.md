@@ -34,15 +34,11 @@ Korean
 > 해당 소스는 오픈소스입니다. 당신은 언제든 소스의 오류를 발견하고 이를 알리거나 수정해 포크할 수 있습니다.
 
 ### Contract Address
-> 만일 해당 앱에 사용된 컨트랙 정보를 확인하기 원한다면, 당신은 아래의 주소를 통해 정보를 확인할 수 있습니다.
+> 만일 해당 앱에 사용된 컨트랙 정보를 확인하기 원한다면, 당신은 아래의 주소를 통해 정보를 확인할 수 있습니다.  
 >
-> Mainnet Contract: [0xa9d68bcCA2ebFb5293EA9102Cf4ea0090c3133Cb](https://etherscan.io/address/0xa9d68bcCA2ebFb5293EA9102Cf4ea0090c3133Cb)
-> Robsten Contract: [0x0662F9eB3A41654657da1d6A59594c6E9a36f8F0](https://ropsten.etherscan.io/address/0x0662F9eB3A41654657da1d6A59594c6E9a36f8F0)
-> Kovan Contract  : [0xF2fDB10ad55be2A55e211a08e362796d622fE17f](https://kovan.etherscan.io/address/0xF2fDB10ad55be2A55e211a08e362796d622fE17f)
-
-### ENS
-> Safether의 ENS는 safether.eth입니다.
-> 당신은 safether.eth를 통해 Swarm에 접속할 수 있습니다.
+> Mainnet Contract: [0xa9d68bcCA2ebFb5293EA9102Cf4ea0090c3133Cb](https://etherscan.io/address/0xa9d68bcCA2ebFb5293EA9102Cf4ea0090c3133Cb)  
+> Robsten Contract: [0x0662F9eB3A41654657da1d6A59594c6E9a36f8F0](https://ropsten.etherscan.io/address/0x0662F9eB3A41654657da1d6A59594c6E9a36f8F0)  
+> Kovan Contract  : [0xF2fDB10ad55be2A55e211a08e362796d622fE17f](https://kovan.etherscan.io/address/0xF2fDB10ad55be2A55e211a08e362796d622fE17f)  
 
 ### Swarm
 > #### ENS
@@ -50,17 +46,17 @@ Korean
 >> 만약 당신이 스웜 노드이거나, 다른 스웜 게이트웨이를 통해 Safether를 사용하고 싶다면 아래의 주소를 통해 이용할 수 있습니다.
 >
 > #### Gateway
->> Ethereum Swarm Gateway: [http://swarm-gateways.net/](https://swarm-gateways.net)
->> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io/](https://swarm.meshyarn.io)
+>> Ethereum Swarm Gateway: [http://swarm-gateways.net/](https://swarm-gateways.net)  
+>> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io/](https://swarm.meshyarn.io)  
 >
 > #### 접속 방법
->> 예컨데, 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 희망한다면 아래와 같이 접속을 시도할 수 있습니다.
->> [http://swarm-gateways.net/bzz:/_]()
->> [http://swarm.meshyarn.io/bzz:/_]()
+>> 예컨데, 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 희망한다면 아래와 같이 접속을 시도할 수 있습니다.  
+>> [http://swarm-gateways.net/bzz:/_]()  
+>> [http://swarm.meshyarn.io/bzz:/_]()  
 >>
->> 또는, Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.
->> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)
->> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)
+>> 또는, Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.  
+>> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)  
+>> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
 ### 경고
 > #### v1.0.1
@@ -68,11 +64,12 @@ Korean
 >
 > #### v1.0.0 - 오류 수정판
 >> 초기 릴리즈의 오류 수정이 완료된 해시 ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744b855876831533d0c737ab675의 사용을 권장하지 않습니다.
->> 해당 버전은 Mainnet 이외의 타 네트워크에서의 동작을 보증하지 않습니다.
+>> 해당 버전은 Mainnet 이외의 타 네트워크에서의 동작을 보증하지 않습니다.  
 >
 > #### v1.0.0 - 초기 릴리즈
->> 이전 스웜 해시인 718e5987873bc4a75e960d4cbac5b21922f00628a82b1037c21fe74c5e67c94a 를 사용하지 마십시오.
->> 해당 버전은 Access Token을 쉽게 추측할 수 있는 위험성을 내포하고 있습니다.
+>> 이전 스웜 해시인 718e5987873bc4a75e960d4cbac5b21922f00628a82b1037c21fe74c5e67c94a를 사용하지 마십시오.
+>> 해당 버전은 Access Token을 쉽게 추측할 수 있는 위험성을 내포하고 있습니다.  
+> 
 > 만일 당신이 위의 경고를 지키지 않아 예기치 않은 손실을 입더라도 책임질 수 없습니다.
 
 Authors
@@ -83,5 +80,5 @@ Solidity was created by [Bak Jeong Jun](https://github.com/iKeyDev-KsJ).
 License
 =======
 
-GNU General Public License v3.0
+GNU General Public License v3.0  
 See [COPYING](COPYING) to see the full text.
