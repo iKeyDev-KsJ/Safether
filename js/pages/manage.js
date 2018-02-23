@@ -3,7 +3,7 @@
     function async_load() {
 
         for (let i = 0; i < document.head.children.length; i++) {if (document.head.children[i].type == "text/css") document.head.children[i].rel = "stylesheet"}
-        element = [document.getElementById('coinbase'), document.getElementById('signout'), document.getElementById('deposit'), document.getElementById('reissue'), document.getElementById('cancel'), document.getElementById('donate')];
+        element = [document.getElementById('coinbase'), document.getElementById('signout'), document.getElementById('deposit'), document.getElementById('token'), document.getElementById('cancel'), document.getElementById('donate')];
 
         if (typeof web3 !== 'undefined') {
 
@@ -31,8 +31,22 @@
                                 web3js.eth.getBlockNumber((err, number) => {
         
                                     if (err) { alert(err); return location.replace('../'); }
-                                    document.getElementById('limit').innerText = 'Currunt Number is ' + number + ', Asset Limit Number is ' + data[1] + (((number >= data[1]) && (data[1] != 0)) ? '.\nYou can find asset using access token or try cancel contract.'  : '.\nYou can\'t find asset using access token. but, you can try cancel contract if you want.');
-        
+                                    if (number >= data[1]) {
+
+                                        web3js.eth.getBlock(data[1], (err, block) => {
+
+                                            if (err) { alert(err); return location.replace('../'); }
+                                            document.getElementById('limit').innerText = 'Withdrawal Limit Status: Possible\nAt. ' + new Date(block.timestamp * 1000);
+
+                                        });
+                                        
+                                    }
+                                    else {
+                                        var date = new Date();
+                                        date.setTime(date.getTime() + ((data[1] - number) * 14 * 1000));
+                                        document.getElementById('limit').innerText = 'Withdrawal Limit Status: Impossible\n\nRelease Estimated Time At\n' + date;
+                                    }
+
                                 });
         
                             }, 1000);
@@ -53,7 +67,6 @@
                     alert('Please make sure that Metamask RPC is set to Mainnet, Robsten, Kovan.');
                     for(var i = 0; i < element.length; i++)
                         element[i].addEventListener('click', () => {alert('Please make sure that Metamask RPC is set to Mainnet, Robsten, Kovan.')});
-                    return;
                 }
 
             });

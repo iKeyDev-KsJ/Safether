@@ -99,4 +99,10 @@ function donate() {
 
 }
 
-function openEtherScan(txid) { alert('A transaction has been issued.'); setTimeout(() => { window.open('https://etherscan.io/tx/' + txid,'_blank'); }, 1000); }
+function openEtherScan(txid) { 
+    alert('A transaction has been issued.'); 
+    setTimeout(() => { 
+        web3js.eth.net.getId().then((networkId) => {
+            window.open('https://' + ((networkId == 1) ? '' : ((networkId == 3) ? 'ropsten.' : 'kovan.')) + 'etherscan.io/tx/' + txid,'_blank'); });
+    }, 1000); 
+}
