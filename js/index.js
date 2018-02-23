@@ -24,7 +24,7 @@
             });
 
             element[0].addEventListener('click', () => {sign()});
-            element[1].addEventListener('click', () => {window.open('./pages/withdraw.html','','width=480, height=640, resizable=no, scrollbars=no, location=no, status=no, menubar=no, toolbar=no;')});
+            element[1].addEventListener('click', () => {window.open('./pages/withdraw.html','','width=360, height=540, resizable=no, scrollbars=no, location=no, status=no, menubar=no, toolbar=no;')});
             element[2].addEventListener('click', () => {donate()});
 
         } else {
