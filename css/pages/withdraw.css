@@ -40,20 +40,34 @@ section {
 }
 
 .firstLine, .secondLine, .thirdLine, .fourthLine, .fifthLine {
-    position:relative; top:7.5%; left:50%;
-    width:calc(80% + 12vmin);
+    position:relative; top:15%; left:50%;
+    width:85%;
     transform:translateX(-50%);
 }
 
 #second input {
     background-color:transparent;
-    position:relative; top:50%;
-    width:20%; height:7.5vmin;
-    margin:3.0vmin 1.5vmin 1.5vmin 1.5vmin;
+    width:22.5%; height:7.5vmin;
+    margin: 1.5vmin 0px 1.5vmin 0px;
     text-align:center;
     font-size:3vmin; font-weight:bold;
     color:#43516c;
     border:solid 0.25vmin #43516c;
+}
+
+#word2, #word6, #word10, #word14 {
+    position:absolute;
+    right:51%;
+}
+
+#word3, #word7, #word11, #word15 {
+    position:absolute;
+    left:51%;
+}
+
+#word4, #word8, #word12, #word16 {
+    position:absolute;
+    right:0%;
 }
 
 #second button {

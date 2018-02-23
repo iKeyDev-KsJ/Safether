@@ -93,7 +93,7 @@ function getToken() {
 
         }
         else if (password === null) {}
-        else { alert('The entered password can not be used. please try again.'); }
+        else { alert('The entered password can not be used. please try again.'); location.reload(true); }
 
     });
 
