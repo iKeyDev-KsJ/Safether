@@ -30,18 +30,18 @@ English
 >> If you are a swarm node, or would like to use a Safether via another swarm gateway, use the address below.
 >
 > #### Gateway
->> Ethereum Swarm Gateway: [http://swarm-gateways.net/](https://swarm-gateways.net)  
->> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io](https://swarm.meshyarn.io)  
+>> Ethereum Swarm Gateway: [http://swarm-gateways.net/](http://swarm-gateways.net)  
+>> Mesyharn Swarm Gateway: [http://swarm.mesyharn.io](http://swarm.meshyarn.io)  
 >
 > #### How can I access the swarm using safether hash?
 >> If you would like to connect to Safether via the above swarm gateway, you can try to connect as follows:  
 >> [http://swarm-gateways.net/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9](http://swarm-gateways.net/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9)  
->> [https://swarm.meshyarn.io/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9](http://swarm.meshyarn.io/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9)  
+>> [http://swarm.meshyarn.io/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9](http://swarm.meshyarn.io/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9)  
 >> Note : swarm-gateways.net may not immediately be able to connect due to sync issues.  
 >>
 >> or you can try to connect using Safether.eth, the ENS address of Safether:  
 >> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)   
->> [https://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
+>> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
 ### Notes
 > #### v1.0.4
@@ -94,18 +94,18 @@ Korean
 >> 만약 당신이 스웜 노드이거나, 다른 스웜 게이트웨이를 통해 Safether를 사용하고 싶다면 아래의 주소를 통해 이용할 수 있습니다.
 >
 > #### Gateway
->> Ethereum Swarm Gateway: [http://swarm-gateways.net/](https://swarm-gateways.net)  
->> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io](https://swarm.meshyarn.io)  
+>> Ethereum Swarm Gateway: [http://swarm-gateways.net/](http://swarm-gateways.net)  
+>> Mesyharn Swarm Gateway: [http://swarm.mesyharn.io](http://swarm.meshyarn.io)  
 >
 > #### 접속 방법
 >> 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 원한다면 아래와 같이 접속을 시도할 수 있습니다.  
 >> [http://swarm-gateways.net/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9](http://swarm-gateways.net/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9)  
->> [https://swarm.meshyarn.io/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9](http://swarm.meshyarn.io/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9)  
+>> [http://swarm.meshyarn.io/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9](http://swarm.meshyarn.io/bzz:/cf35bd90d8c7a2137588fde8c5dbedd3347b16bd1bbe77e6ec88a81c519372f9)  
 >> 참고: swarm-gateways.net은 동기화 문제로 인해 바로 접속이 되지 않을 수 있습니다.  
 >>
 >> 또는 Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.  
 >> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)  
->> [https://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
+>> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
 ### 경고
 > #### v1.0.4
