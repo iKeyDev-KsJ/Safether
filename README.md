@@ -43,16 +43,16 @@ English
 >> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)   
 >> [https://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
-### 경고
+### Notes
 > #### v1.0.1
 >> If possible, it is recommended to use a sw wom address with the Safether ENS address.  
 >
-> #### v1.0.0 - 오류 수정판
+> #### v1.0.0 - Fixed Error
 >> We do not recommend using hash ba13b45be7b0a16bb2ec5e35cc4d5d01e8499744855876831533d0c737ab675, 
 >> that have completed the error correction for the initial release.
 >> The version does not endorse actions on other networks than Mainnet. 
 >
-> #### v1.0.0 - 초기 릴리즈
+> #### v1.0.0 - Initial Release
 >> DO NOT use the old swarm hash, 718e5987873bc4a75e960d4cbac5b21922f00628a82b1037c21fe74c5e67c94a.
 >> The version implies a risk that can be easily inferred about Access Token. 
 > 

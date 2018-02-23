@@ -29,7 +29,7 @@ header button:hover {
 }
 
 #enrollment span {
-    position:absolute; top:40%; left:50%;
+    position:absolute; top:50%; left:50%;
     text-align:center;
     width: 87.5%;
     font-size:8.25vmin; font-weight:bold;

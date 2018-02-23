@@ -5,21 +5,49 @@
         for (let i = 0; i < document.head.children.length; i++) {if (document.head.children[i].type == "text/css") document.head.children[i].rel = "stylesheet"}
         element = [document.getElementById('coinbase'), document.getElementById('signout'), document.getElementById('deposit'), document.getElementById('reissue'), document.getElementById('cancel'), document.getElementById('donate')];
 
-        // Checking if Web3 has been injected by the browser (Mist/MetaMask)
         if (typeof web3 !== 'undefined') {
-            // Use Mist/MetaMask's provider
+
             web3js = new Web3(web3.currentProvider);
             web3js.eth.net.getId()
             .then((networkId) => {
 
-                if (networkId == 1) {
-                    etherSafe = new web3js.eth.Contract(contractABI, contractAddress[0]);
-                }
-                else if (networkId == 3) {
-                    etherSafe = new web3js.eth.Contract(contractABI, contractAddress[1]);
-                }
-                else if (networkId == 42) {
-                    etherSafe = new web3js.eth.Contract(contractABI, contractAddress[2]);
+                if (contractABI[networkId] !== undefined) {
+                    etherSafe = new web3js.eth.Contract(contractABI, contractAddress[networkId]);
+
+                    return web3js.eth.getCoinbase((err, address) => {
+
+                        if (err) { alert(err); return location.replace('../'); }
+                        if (address === null) { alert('Please make sure the meta mask is logged in.'); return location.replace('../'); }
+                        document.getElementById('coinbase').innerText = address;
+        
+                        etherSafe.methods.getDepositor().call({from: address}, (err, data) => {
+        
+                            if (err) { alert(err); return location.replace('../'); }
+                            if (data[0] === '0') { location.replace('../'); }
+                            document.getElementById('balance').innerText = 'Your holding asset is ' + web3js.utils.fromWei(data[2], 'ether') + ' ethers.';
+        
+                            setInterval(() => {
+        
+                                web3js.eth.getBlockNumber((err, number) => {
+        
+                                    if (err) { alert(err); return location.replace('../'); }
+                                    document.getElementById('limit').innerText = 'Currunt Number is ' + number + ', Asset Limit Number is ' + data[1] + (((number >= data[1]) && (data[1] != 0)) ? '.\nYou can find asset using access token or try cancel contract.'  : '.\nYou can\'t find asset using access token. but, you can try cancel contract if you want.');
+        
+                                });
+        
+                            }, 1000);
+        
+                            element[0].addEventListener('click', () => {window.prompt('Copy to the clipboard via Ctrl + C.', document.getElementById('coinbase').innerText)});
+                            element[1].addEventListener('click', () => {if (confirm('Are you sure you want to sign out?')) { location.replace('../'); }});
+                            element[2].addEventListener('click', () => {deposit()});
+                            element[3].addEventListener('click', () => {window.open('./token.html','token','width=360, height=540, resizable=no, scrollbars=no, location=no, status=no, menubar=no, toolbar=no;');});
+                            element[4].addEventListener('click', () => {cancel()});
+                            element[5].addEventListener('click', () => {donate()});
+        
+                        });
+        
+                    });
+
                 }
                 else {
                     alert('Please make sure that Metamask RPC is set to Mainnet, Robsten, Kovan.');
@@ -30,46 +58,9 @@
 
             });
 
-            web3js.eth.getCoinbase((err, address) => {
-
-                if (err) { alert(err); return location.replace('../'); }
-                if (address === null) { alert('Please make sure the meta mask is logged in.'); return location.replace('../'); }
-                document.getElementById('coinbase').innerText = address;
-
-                etherSafe.methods.getDepositor().call({from: address}, (err, data) => {
-
-                    if (err) { alert(err); return location.replace('../'); }
-                    if (data[0] === '0') { location.replace('../'); }
-                    document.getElementById('balance').innerText = 'Your holding asset is ' + web3js.utils.fromWei(data[2], 'ether') + ' ethers.';
-
-                    setInterval(() => {
-
-                        web3js.eth.getBlockNumber((err, number) => {
-
-                            if (err) { alert(err); return location.replace('../'); }
-                            document.getElementById('limit').innerText = 'Currunt Number is ' + number + ', Asset Limit Number is ' + data[1] + (((number >= data[1]) && (data[1] != 0)) ? '.\nYou can find asset using access token or try cancel contract.'  : '.\nYou can\'t find asset using access token. but, you can try cancel contract if you want.');
-
-                        });
-
-                    }, 1000);
-
-                    element[0].addEventListener('click', () => {window.prompt('Copy to the clipboard via Ctrl + C.', document.getElementById('coinbase').innerText)});
-                    element[1].addEventListener('click', () => {if (confirm('Are you sure you want to sign out?')) { location.replace('../'); }});
-                    element[2].addEventListener('click', () => {deposit()});
-                    element[3].addEventListener('click', () => {window.open('./token.html','token','width=480, height=640, resizable=no, scrollbars=no, location=no, status=no, menubar=no, toolbar=no;');});
-                    element[4].addEventListener('click', () => {cancel()});
-                    element[5].addEventListener('click', () => {donate()});
-
-                });
-
-            });
-
         } else {
             alert('Metamask is required to use the service.');
             location.replace('../');
-            //console.log('No web3? You should consider trying MetaMask!')
-            // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
-            //web3js = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
         }
 
     }
