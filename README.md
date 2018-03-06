@@ -1,4 +1,4 @@
-Safether v1.0.5
+Safether v1.0.6
 =======
 
 English
@@ -25,7 +25,7 @@ English
 
 ### Swarm
 > #### ENS
->> Safether's latest Swarm Hash is c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b, 
+>> Safether's latest Swarm Hash is f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b, 
 >> but Safether's ENS address, safether.eth is recommended.
 >> If you are a swarm node, or would like to use a Safether via another swarm gateway, use the address below.
 >
@@ -35,8 +35,8 @@ English
 >
 > #### How can I access the swarm using safether hash?
 >> If you would like to connect to Safether via the above swarm gateway, you can try to connect as follows:  
->> [http://swarm-gateways.net/bzz:/c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b](http://swarm-gateways.net/bzz:/c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b)  
->> [http://swarm.meshyarn.io/bzz:/c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b](http://swarm.meshyarn.io/bzz:/c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b)  
+>> [http://swarm-gateways.net/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b](http://swarm-gateways.net/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b)  
+>> [http://swarm.meshyarn.io/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b](http://swarm.meshyarn.io/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b)  
 >> Note : swarm-gateways.net may not immediately be able to connect due to sync issues.  
 >>
 >> or you can try to connect using Safether.eth, the ENS address of Safether:  
@@ -44,8 +44,12 @@ English
 >> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
 ### Notes
-> #### v1.0.5
+> #### v1.0.6
 >> If possible, it is recommended to use a sw wom address with the Safether ENS address.  
+>
+> #### v1.0.5
+>> We do not recommend using hash c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b.
+>> Fixed kovan network connection error.
 >
 > #### v1.0.4
 >> We do not recommend using hash da0dc421b5567d2670b38477b2d40926f9d0f52377b3a4c2c6363377a7aa75af.
@@ -94,7 +98,7 @@ Korean
 
 ### Swarm
 > #### ENS
->> Safether의 최신 Swarm Hash는 c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b이지만 Safether의 ENS 주소인 safether.eth를 사용하는 것을 권장합니다.
+>> Safether의 최신 Swarm Hash는 f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b이지만 Safether의 ENS 주소인 safether.eth를 사용하는 것을 권장합니다.
 >> 만약 당신이 스웜 노드이거나, 다른 스웜 게이트웨이를 통해 Safether를 사용하고 싶다면 아래의 주소를 통해 이용할 수 있습니다.
 >
 > #### Gateway
@@ -103,8 +107,8 @@ Korean
 >
 > #### 접속 방법
 >> 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 원한다면 아래와 같이 접속을 시도할 수 있습니다.  
->> [http://swarm-gateways.net/bzz:/c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b](http://swarm-gateways.net/bzz:/c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b)  
->> [http://swarm.meshyarn.io/bzz:/c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b](http://swarm.meshyarn.io/bzz:/c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b)  
+>> [http://swarm-gateways.net/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b](http://swarm-gateways.net/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b)  
+>> [http://swarm.meshyarn.io/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b](http://swarm.meshyarn.io/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b)  
 >> 참고: swarm-gateways.net은 동기화 문제로 인해 바로 접속이 되지 않을 수 있습니다.  
 >>
 >> 또는 Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.  
@@ -112,13 +116,16 @@ Korean
 >> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
 
 ### 경고
-> #### v1.0.5
+> #### v1.0.6
 >> ENS 주소인 Safetehr.eth를 통해 접속하는것을 권장합니다.
+>
+> #### v1.0.5
+>> 해당 버전 해시인 c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b 사용을 권장하지 않습니다.
+>> 해당 버전은 Kovan Network 연결 오류 실패 문제가 해결되었습니다.
 >
 > #### v1.0.4
 >> 해당 버전 해시인 da0dc421b5567d2670b38477b2d40926f9d0f52377b3a4c2c6363377a7aa75af의 사용을 권장하지 않습니다.
 >> 해당 버전은 자잘한 오류들이 내포되어 있습니다.
->>
 >
 > #### v1.0.2
 >> 해당 버전 해시인 22c1bbf230b83420b871605aaf981515751f32c07c4099293ee0e52301faaf1c의 사용을 권장하지 않습니다.
