@@ -25,7 +25,7 @@ English
 
 ### Swarm
 > #### ENS
->> Safether's latest Swarm Hash is 3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1, 
+>> Safether's latest Swarm Hash is 5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86, 
 >> but Safether's ENS address, safether.eth is recommended.
 >> If you are a swarm node, or would like to use a Safether via another swarm gateway, use the address below.
 >
@@ -35,8 +35,8 @@ English
 >
 > #### How can I access the swarm using safether hash?
 >> If you would like to connect to Safether via the above swarm gateway, you can try to connect as follows:  
->> [http://swarm-gateways.net/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1](http://swarm-gateways.net/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1)  
->> [https://swarm.meshyarn.io/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1](https://swarm.meshyarn.io/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1)  
+>> [http://swarm-gateways.net/bzz:/5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86](http://swarm-gateways.net/bzz:/5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86)  
+>> [https://swarm.meshyarn.io/bzz:/5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86](https://swarm.meshyarn.io/bzz:/5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86)  
 >> Note : swarm-gateways.net may not immediately be able to connect due to sync issues.  
 >>
 >> or you can try to connect using Safether.eth, the ENS address of Safether:  
@@ -98,7 +98,7 @@ Korean
 
 ### Swarm
 > #### ENS
->> Safether의 최신 Swarm Hash는 7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529이지만 Safether의 ENS 주소인 safether.eth를 사용하는 것을 권장합니다.
+>> Safether의 최신 Swarm Hash는 5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86이지만 Safether의 ENS 주소인 safether.eth를 사용하는 것을 권장합니다.
 >> 만약 당신이 스웜 노드이거나, 다른 스웜 게이트웨이를 통해 Safether를 사용하고 싶다면 아래의 주소를 통해 이용할 수 있습니다.
 >
 > #### Gateway
@@ -107,8 +107,8 @@ Korean
 >
 > #### 접속 방법
 >> 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 원한다면 아래와 같이 접속을 시도할 수 있습니다.  
->> [http://swarm-gateways.net/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1](http://swarm-gateways.net/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1)  
->> [https://swarm.meshyarn.io/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1](https://swarm.meshyarn.io/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1)  
+>> [http://swarm-gateways.net/bzz:/5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86](http://swarm-gateways.net/bzz:/5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86)  
+>> [https://swarm.meshyarn.io/bzz:/5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86](https://swarm.meshyarn.io/bzz:/5e88a6d543c64d2deffefb0b71ffab6ebd06013466589f1398c197e927785c86)  
 >> 참고: swarm-gateways.net은 동기화 문제로 인해 바로 접속이 되지 않을 수 있습니다.  
 >>
 >> 또는 Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.  
