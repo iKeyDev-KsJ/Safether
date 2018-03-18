@@ -25,23 +25,23 @@ English
 
 ### Swarm
 > #### ENS
->> Safether's latest Swarm Hash is f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b, 
+>> Safether's latest Swarm Hash is 7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529, 
 >> but Safether's ENS address, safether.eth is recommended.
 >> If you are a swarm node, or would like to use a Safether via another swarm gateway, use the address below.
 >
 > #### Gateway
 >> Ethereum Swarm Gateway: [http://swarm-gateways.net/](http://swarm-gateways.net)  
->> Mesyharn Swarm Gateway: [http://swarm.mesyharn.io](http://swarm.meshyarn.io)  
+>> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io](https://swarm.meshyarn.io)  
 >
 > #### How can I access the swarm using safether hash?
 >> If you would like to connect to Safether via the above swarm gateway, you can try to connect as follows:  
->> [http://swarm-gateways.net/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b](http://swarm-gateways.net/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b)  
->> [http://swarm.meshyarn.io/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b](http://swarm.meshyarn.io/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b)  
+>> [http://swarm-gateways.net/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529](http://swarm-gateways.net/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529)  
+>> [https://swarm.meshyarn.io/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529](https://swarm.meshyarn.io/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529)  
 >> Note : swarm-gateways.net may not immediately be able to connect due to sync issues.  
 >>
 >> or you can try to connect using Safether.eth, the ENS address of Safether:  
 >> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)   
->> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
+>> [https://swarm.meshyarn.io/bzz:/safether.eth](https://swarm.meshyarn.io/bzz:/safether.eth)  
 
 ### Notes
 > #### v1.0.6
@@ -98,22 +98,22 @@ Korean
 
 ### Swarm
 > #### ENS
->> Safether의 최신 Swarm Hash는 f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b이지만 Safether의 ENS 주소인 safether.eth를 사용하는 것을 권장합니다.
+>> Safether의 최신 Swarm Hash는 7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529이지만 Safether의 ENS 주소인 safether.eth를 사용하는 것을 권장합니다.
 >> 만약 당신이 스웜 노드이거나, 다른 스웜 게이트웨이를 통해 Safether를 사용하고 싶다면 아래의 주소를 통해 이용할 수 있습니다.
 >
 > #### Gateway
 >> Ethereum Swarm Gateway: [http://swarm-gateways.net/](http://swarm-gateways.net)  
->> Mesyharn Swarm Gateway: [http://swarm.mesyharn.io](http://swarm.meshyarn.io)  
+>> Mesyharn Swarm Gateway: [https://swarm.mesyharn.io](https://swarm.meshyarn.io)  
 >
 > #### 접속 방법
 >> 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 원한다면 아래와 같이 접속을 시도할 수 있습니다.  
->> [http://swarm-gateways.net/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b](http://swarm-gateways.net/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b)  
->> [http://swarm.meshyarn.io/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b](http://swarm.meshyarn.io/bzz:/f34cc6c6852d64be67cf7bffa27c8b7ac737ef9f96d926a613200dc10cd1006b)  
+>> [http://swarm-gateways.net/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529](http://swarm-gateways.net/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529)  
+>> [https://swarm.meshyarn.io/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529](https://swarm.meshyarn.io/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529)  
 >> 참고: swarm-gateways.net은 동기화 문제로 인해 바로 접속이 되지 않을 수 있습니다.  
 >>
 >> 또는 Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.  
 >> [http://swarm-gateways.net/bzz:/safether.eth](http://swarm-gateways.net/bzz:/safether.eth)  
->> [http://swarm.meshyarn.io/bzz:/safether.eth](http://swarm.meshyarn.io/bzz:/safether.eth)  
+>> [https://swarm.meshyarn.io/bzz:/safether.eth](https://swarm.meshyarn.io/bzz:/safether.eth)  
 
 ### 경고
 > #### v1.0.6
