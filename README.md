@@ -25,7 +25,7 @@ English
 
 ### Swarm
 > #### ENS
->> Safether's latest Swarm Hash is 7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529, 
+>> Safether's latest Swarm Hash is 3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1, 
 >> but Safether's ENS address, safether.eth is recommended.
 >> If you are a swarm node, or would like to use a Safether via another swarm gateway, use the address below.
 >
@@ -35,8 +35,8 @@ English
 >
 > #### How can I access the swarm using safether hash?
 >> If you would like to connect to Safether via the above swarm gateway, you can try to connect as follows:  
->> [http://swarm-gateways.net/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529](http://swarm-gateways.net/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529)  
->> [https://swarm.meshyarn.io/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529](https://swarm.meshyarn.io/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529)  
+>> [http://swarm-gateways.net/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1](http://swarm-gateways.net/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1)  
+>> [https://swarm.meshyarn.io/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1](https://swarm.meshyarn.io/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1)  
 >> Note : swarm-gateways.net may not immediately be able to connect due to sync issues.  
 >>
 >> or you can try to connect using Safether.eth, the ENS address of Safether:  
@@ -49,7 +49,7 @@ English
 >
 > #### v1.0.5
 >> We do not recommend using hash c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b.
->> Fixed kovan network connection error.
+>> This version contains kovan network connection error.
 >
 > #### v1.0.4
 >> We do not recommend using hash da0dc421b5567d2670b38477b2d40926f9d0f52377b3a4c2c6363377a7aa75af.
@@ -107,8 +107,8 @@ Korean
 >
 > #### 접속 방법
 >> 당신이 위 스웜 게이트를 통해 Safether에 접속하기를 원한다면 아래와 같이 접속을 시도할 수 있습니다.  
->> [http://swarm-gateways.net/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529](http://swarm-gateways.net/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529)  
->> [https://swarm.meshyarn.io/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529](https://swarm.meshyarn.io/bzz:/7b0d79bb16b1f254253c29ee55fc3b806b7adb7cebbe0e931ceb028ca94a4529)  
+>> [http://swarm-gateways.net/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1](http://swarm-gateways.net/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1)  
+>> [https://swarm.meshyarn.io/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1](https://swarm.meshyarn.io/bzz:/3c9f60e8dbfe38f2cf1b802dd76373dbecb849be7cd4eab6050be13bc8894ba1)  
 >> 참고: swarm-gateways.net은 동기화 문제로 인해 바로 접속이 되지 않을 수 있습니다.  
 >>
 >> 또는 Safether의 ENS 주소인 Safether.eth를 사용해 다음과 같이 접속을 시도할 수 있습니다.  
@@ -121,7 +121,7 @@ Korean
 >
 > #### v1.0.5
 >> 해당 버전 해시인 c53ce9db04191fc2ce48364f78535a0f92c6f6ee4e6219ff29cce0c967da385b 사용을 권장하지 않습니다.
->> 해당 버전은 Kovan Network 연결 오류 실패 문제가 해결되었습니다.
+>> 해당 버전은 Kovan Network에 접속되지 않는 문제가 있습니다.
 >
 > #### v1.0.4
 >> 해당 버전 해시인 da0dc421b5567d2670b38477b2d40926f9d0f52377b3a4c2c6363377a7aa75af의 사용을 권장하지 않습니다.
