@@ -10,7 +10,7 @@
             web3js.eth.net.getId()
             .then((networkId) => {
 
-                if (contractABI[networkId] !== undefined) {
+                if (contractAddress[networkId] !== undefined) {
                     etherSafe = new web3js.eth.Contract(contractABI, contractAddress[networkId]);
                 }
                 else {
